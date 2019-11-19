@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int n,i,j,temp;
-	printf("Enter the ahuhuhiurray size:");
+	printf("Enter the array size:");
 	scanf("%d",&n);
 	int a[n];
 	printf("Enter the array:");
