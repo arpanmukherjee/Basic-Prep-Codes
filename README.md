@@ -5,6 +5,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 - [Searching and Sorting](#searching-and-sorting)
 	- [Searching](#searching)
 	- [Sorting](#sorting)
+- [Dynamic Programming](#dynamic-programming)
 
 
 ## Searching and Sorting
@@ -22,3 +23,9 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Insertion Sort | [C++](Sorting/Insertion_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/insertion-sort/) |
 | Merge Sort | [C++](Sorting/Merge_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/merge-sort/)
 | Quick Sort | [C++](Sorting/Quick_Sort.cpp) | [Wikipedia.](https://en.wikipedia.org/wiki/Quicksort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort/) |
+
+
+### Dynamic Programming
+| Problem | Code | Resource |
+|--|--|--|
+|Count of strings that can be formed using a, b and c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
