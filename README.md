@@ -29,3 +29,4 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Problem | Code | Resource |
 |--|--|--|
 |Count of strings that can be formed using a, b and c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
+|Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
