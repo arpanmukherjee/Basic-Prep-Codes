@@ -1,3 +1,4 @@
+
 # Data Structures and Algorithms
 Following are the codes of all the data-structures and algorithms I have learned till now. I implemented all of them in `C++`. I will also try to add all the resources I have learnt from. I used to practice competetive programming on all the popular websites and I tried to maintain all the codes to a repo. You can find it [here](https://github.com/arpanmukherjee/Competetive-Programming). Thank you. Enjoy.
 
@@ -28,6 +29,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 ### Dynamic Programming
 | Problem | Code | Resource |
 |--|--|--|
+| Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) | [wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem), [geeksforgeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), [Medium](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d),
 |Count of strings using a, b & c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
 |Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
 | Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
