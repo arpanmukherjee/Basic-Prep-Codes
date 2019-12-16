@@ -23,14 +23,15 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Bubble Sort | [C++](Sorting/Bubble_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/bubble-sort/) |
 | Insertion Sort | [C++](Sorting/Insertion_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/insertion-sort/) |
 | Merge Sort | [C++](Sorting/Merge_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/merge-sort/)
-| Quick Sort | [C++](Sorting/Quick_Sort.cpp) | [Wikipedia.](https://en.wikipedia.org/wiki/Quicksort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort/) |
+| Quick Sort | [C++](Sorting/Quick_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Quicksort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort/) |
 
 
 ### Dynamic Programming
 | Problem | Code | Resource |
 |--|--|--|
-| Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) | [wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem), [geeksforgeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), [Medium](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d),
+| Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem), [geeksforgeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), [Medium](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
+|Longest Increasing Subsequence | [C++](Dynamic-Programming/lis.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Longest_increasing_subsequence), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0), [Youtube](https://www.youtube.com/watch?v=CE2b_-XfVDk)
 |Count of strings using a, b & c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
 |Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
-| Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
+| Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/form-a-palindrome/0)
