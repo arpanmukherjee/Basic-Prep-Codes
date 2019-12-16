@@ -28,7 +28,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 ### Dynamic Programming
 | Problem | Code | Resource |
 |--|--|--|
-|Count of strings that can be formed using a, b and c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
+|Count of strings using a, b & c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
 |Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
 | Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/form-a-palindrome/0)
