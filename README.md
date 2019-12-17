@@ -31,8 +31,9 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|--|
 | Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem), [geeksforgeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), [Medium](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
 |Longest Increasing Subsequence | [C++](Dynamic-Programming/lis.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Longest_increasing_subsequence), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0), [Youtube](https://www.youtube.com/watch?v=CE2b_-XfVDk)
+| Subset Sum Problem | [C++](Dynamic-Programming/subset_sum.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/subset-sum-problem/0)
+| Longest Common Subsequence | [C++](Dynamic-Programming/lcs.cpp) |[Wikipedia](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0), [Youtube](https://www.youtube.com/watch?v=NnD96abizww)
 |Count of strings using a, b & c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
 |Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
-| Subset Sum Problem | [C++](Dynamic-Programming/subset_sum.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/subset-sum-problem/0) |
 | Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/form-a-palindrome/0)
