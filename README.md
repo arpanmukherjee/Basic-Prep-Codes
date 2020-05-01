@@ -7,34 +7,36 @@ Following are the codes of all the data-structures and algorithms I have learned
 	- [Searching](#searching)
 	- [Sorting](#sorting)
 - [Dynamic Programming](#dynamic-programming)
+- [Graphs and Trees](#graphs-and-trees)
 
 
 ## Searching and Sorting
 ### Searching
-| Algorithm | Code | Resource |
-|--|--|--|
-| Linear Search | [C++](Searching/linear_search.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Linear_search#Basic_algorithm), [hackerearth](https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/linear-search/) |
-| Binary Search | [C++](Searching/binary_search.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm), [hackerearth](https://www.hackerearth.com/practice/algorithms/searching/binary-search/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/binary-search/) |
-
+| Algorithm | Code |
+|--|--|
+| Linear Search | [C++](Searching/linear_search.cpp) |
+| Binary Search | [C++](Searching/binary_search.cpp) |
 ### Sorting
-| Algorithm | Code | Resource |
-|--|--|--|
-| Selection Sort | [C++](Sorting/Selction_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/selection-sort/)
-| Bubble Sort | [C++](Sorting/Bubble_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/bubble-sort/) |
-| Insertion Sort | [C++](Sorting/Insertion_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/insertion-sort/) |
-| Merge Sort | [C++](Sorting/Merge_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/merge-sort/)
-| Quick Sort | [C++](Sorting/Quick_Sort.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Quicksort), [hackerearth](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/), [geeksforgeeks](https://www.geeksforgeeks.org/quick-sort/) |
+| Algorithm | Code |
+|--|--|
+| Selection Sort | [C++](Sorting/Selction_Sort.cpp) |
+| Bubble Sort | [C++](Sorting/Bubble_Sort.cpp) |
+| Insertion Sort | [C++](Sorting/Insertion_Sort.cpp) |
+| Merge Sort | [C++](Sorting/Merge_Sort.cpp) |
+| Quick Sort | [C++](Sorting/Quick_Sort.cpp) |
 
 
 ### Dynamic Programming
-| Problem | Code | Resource |
-|--|--|--|
-| Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem), [geeksforgeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/), [Medium](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
-|Longest Increasing Subsequence | [C++](Dynamic-Programming/lis.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Longest_increasing_subsequence), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0), [Youtube](https://www.youtube.com/watch?v=CE2b_-XfVDk)
-| Subset Sum Problem | [C++](Dynamic-Programming/subset_sum.cpp) |[Wikipedia](https://en.wikipedia.org/wiki/Subset_sum_problem), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/subset-sum-problem/0), [Youtube](https://www.youtube.com/watch?v=s6FhG--P7z0)
-| Longest Common Subsequence | [C++](Dynamic-Programming/lcs.cpp) |[Wikipedia](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0), [Youtube](https://www.youtube.com/watch?v=NnD96abizww)
-| Minimum No of Coins | [C++](Dynamic-Programming/minimum_no_of_coins.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Change-making_problem), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins/0), [Youtube](https://www.youtube.com/watch?v=Y0ZqKpToTic)
-|Count of strings using a, b & c under given constraints | [C++](Dynamic-Programming/count_a_b_c.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/count-of-strings-that-can-be-formed-using-a-b-and-c-under-given-constraints/0)
-|Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) | [geeksforgeeks](https://practice.geeksforgeeks.org/problems/maximum-sum-problem/0)
-| Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) | [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming#Egg_dropping_puzzle), [geeksforgeeks](https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0), [Youtube](https://www.youtube.com/watch?v=3hcaVyX00_4)
-| Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |[geeksforgeeks](https://practice.geeksforgeeks.org/problems/form-a-palindrome/0)
+| Problem | Code |
+|--|--|
+| Kadane's Algorithm | [C++](Dynamic-Programming/kadane.cpp) |
+| Longest Increasing Subsequence | [C++](Dynamic-Programming/lis.cpp) |
+| Longest Common Subsequence | [C++](Dynamic-Programming/lcs.cpp) |
+| Edit Distance | [C++](Dynamic-Programming/edit_distance.cpp) |
+| Subset Sum Problem | [C++](Dynamic-Programming/subset_sum.cpp) |
+| Minimum No of Coins | [C++](Dynamic-Programming/minimum_no_of_coins.cpp) |
+| Maximum sum Problem | [C++](Dynamic-Programming/maximum_sum_problem.cpp) |
+| Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |
+| Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
+
+### Graphs and Trees
