@@ -43,5 +43,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Problem | Code |
 |--|--|
 | Breadth First Search | [C++](Graphs-and-Trees/BFS.cpp) |
-| Depth First Search | [Iterative](Graphs-and-Trees/DFS_Iterative.cpp) [Recursive](Graphs-and-Trees/DFS_Recursive.cpp) |
+| Depth First Search Iterative | [C++](Graphs-and-Trees/DFS_Iterative.cpp) |
+| Depth First Search Recursive | [C++](Graphs-and-Trees/DFS_Recursive.cpp) |
 | Shortest path using BFS | [C++](Graphs-and-Trees/Shortest_Path_BFS.cpp) |
+| Dijkstra’s Shortest Path Algorithm | [C++](Graphs-and-Trees/Dijkstra.cpp) |
