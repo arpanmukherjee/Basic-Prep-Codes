@@ -40,3 +40,8 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
 
 ### Graphs and Trees
+| Problem | Code |
+|--|--|
+| Breadth First Search | [C++](Graphs-and-Trees/BFS.cpp) |
+| Depth First Search | [Iterative](Graphs-and-Trees/DFS_Iterative.cpp) [Recursive](Graphs-and-Trees/DFS_Recursive.cpp) |
+| Shortest path using BFS | [C++](Graphs-and-Trees/Shortest_Path_BFS.cpp) |
