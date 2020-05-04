@@ -7,7 +7,10 @@ Following are the codes of all the data-structures and algorithms I have learned
 	- [Searching](#searching)
 	- [Sorting](#sorting)
 - [Dynamic Programming](#dynamic-programming)
-- [Graphs and Trees](#graphs-and-trees)
+- [Graphs](#graphs)
+	- [Traversal](#traversal)
+	- [Cycle Detection](#cycle-detection)
+	- [Shortest Path](#shortest-path)
 - [Miscellaneous](#miscellaneous)
 
 
@@ -40,14 +43,26 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
 
-### Graphs and Trees
+### Graphs
+#### Traversal
 | Problem | Code |
 |--|--|
-| Breadth First Search | [C++](Graphs-and-Trees/BFS.cpp) |
-| Depth First Search Iterative | [C++](Graphs-and-Trees/DFS_Iterative.cpp) |
-| Depth First Search Recursive | [C++](Graphs-and-Trees/DFS_Recursive.cpp) |
-| Shortest path using BFS | [C++](Graphs-and-Trees/Shortest_Path_BFS.cpp) |
-| Dijkstra’s Shortest Path Algorithm | [C++](Graphs-and-Trees/Dijkstra.cpp) |
+| Breadth First Search | [C++](Graphs/Traversal/BFS.cpp) |
+| Depth First Search Iterative | [C++](Graphs/Traversal/DFS_Iterative.cpp) |
+| Depth First Search Recursive | [C++](Graphss/Traversal/DFS_Recursive.cpp) |
+
+#### Cycle Detection
+| Problem | Code |
+|--|--|
+| Cycle Detection Undirected Graph(DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DFS.cpp) |
+| Cycle Detection Undirected Graph(DSU) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DSU.cpp) |
+| Cycle Detection Directed Graph(DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Directed_DFS.cpp) |
+
+#### Shortest Path
+| Problem | Code |
+|--|--|
+| Shortest path using BFS | [C++](Graphs/Shortest-Path/Shortest_Path_BFS.cpp) |
+| Dijkstra’s SSSP | [C++](Graphs/Shortest-Path/Dijkstra.cpp) |
 
 ### Miscellaneous
 | Problem | Code |
