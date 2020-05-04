@@ -8,6 +8,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 	- [Sorting](#sorting)
 - [Dynamic Programming](#dynamic-programming)
 - [Graphs and Trees](#graphs-and-trees)
+- [Miscellaneous](#miscellaneous)
 
 
 ## Searching and Sorting
@@ -47,3 +48,8 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Depth First Search Recursive | [C++](Graphs-and-Trees/DFS_Recursive.cpp) |
 | Shortest path using BFS | [C++](Graphs-and-Trees/Shortest_Path_BFS.cpp) |
 | Dijkstra’s Shortest Path Algorithm | [C++](Graphs-and-Trees/Dijkstra.cpp) |
+
+### Miscellaneous
+| Problem | Code |
+|--|--|
+| Disjoint Set Union (Union Find) | [C++](Miscellaneous/Disjoint_Set_Union.cpp) |
