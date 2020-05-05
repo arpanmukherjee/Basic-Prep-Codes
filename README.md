@@ -10,16 +10,21 @@ Following are the codes of all the data-structures and algorithms I have learned
 - [Graphs](#graphs)
 	- [Traversal](#traversal)
 	- [Cycle Detection](#cycle-detection)
+	- [Minimum Spanning Tree](#minimum-spanning-tree)
 	- [Shortest Path](#shortest-path)
+- [Trees](#trees)
 - [Miscellaneous](#miscellaneous)
 
 
+
 ## Searching and Sorting
+
 ### Searching
 | Algorithm | Code |
 |--|--|
 | Linear Search | [C++](Searching/linear_search.cpp) |
 | Binary Search | [C++](Searching/binary_search.cpp) |
+
 ### Sorting
 | Algorithm | Code |
 |--|--|
@@ -43,7 +48,9 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Egg Dropping Puzzle | [C++](Dynamic-Programming/egg_dropping_puzzle.cpp) |
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
 
+
 ### Graphs
+
 #### Traversal
 | Problem | Code |
 |--|--|
@@ -58,13 +65,32 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Cycle Detection Undirected Graph(DSU) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DSU.cpp) |
 | Cycle Detection Directed Graph(DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Directed_DFS.cpp) |
 
-#### Shortest Path
+#### Minimum Spanning Tree
+| Problem | Code |
+|--|--|
+| Kruskal's MST | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) |
+| Prim's MST | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) |
+
+#### Single Source Shortest Path
 | Problem | Code |
 |--|--|
 | Shortest path using BFS | [C++](Graphs/Shortest-Path/Shortest_Path_BFS.cpp) |
 | Dijkstra’s SSSP | [C++](Graphs/Shortest-Path/Dijkstra.cpp) |
 
+
+### Trees
+| Problem | Code |
+|--|--|
+| Inorder Recursive Traversal | [C++](Trees/InorderRecursive.cpp) |
+| Inorder Iterative Traversal | [C++](Trees/InorderIterative.cpp) |
+| Preorder Traversal | [C++](Trees/Preorder.cpp) |
+| Postorder Traversal | [C++](Trees/Postorder.cpp) |
+| Lowest Common Ancestor(Binary Tree) | [C++](Trees/LCA.cpp) |
+
+
 ### Miscellaneous
 | Problem | Code |
 |--|--|
 | Disjoint Set Union (Union Find) | [C++](Miscellaneous/Disjoint_Set_Union.cpp) |
+
+
