@@ -6,7 +6,7 @@ using namespace std;
 bool vis[MAX];
 vector<int> adj[MAX];
 
-void dfs(int u)
+void dfsRecursive(int u)
 {
     int i, v;
     vis[u] = true;
@@ -15,7 +15,7 @@ void dfs(int u)
     {
         v = adj[u][i];
         if(!vis[v])
-            dfs(v);
+            dfsRecursive(v);
     }
 }
 
@@ -34,6 +34,6 @@ int main()
         adj[x].push_back(y);
         adj[y].push_back(x);
     }
-    dfs(0);
+    dfsRecursive(0);
     return 0;
 }

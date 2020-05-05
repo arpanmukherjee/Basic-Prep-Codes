@@ -6,10 +6,29 @@ using namespace std;
 bool vis[MAX];
 vector<int> adj[MAX];
 
+void dfsIterative(int u)
+{
+    stack<int> st;
+    int i, x, y;
+    st.push(u);
+    while (!st.empty())
+    {
+        x = st.top();
+        st.pop();
+        vis[x] = true;
+        for(i = 0 ; i < adj[x].size() ; i++)
+        {
+            y = adj[x][i];
+            if(!vis[y])
+                st.push(y);
+        }
+        cout << x << " ";
+    }
+}
+
 int main()
 {
     int V, E, x, y, i;
-    stack<int> Q;
     memset(vis, false, sizeof(vis));
 
     cout << "Enter the no of Nodes";
@@ -21,20 +40,6 @@ int main()
         cin >> x >> y;
         adj[x].push_back(y);
         adj[y].push_back(x);
-    }
-    Q.push(0); // considering 0 as starting node
-    while (!Q.empty())
-    {
-        x = Q.top();
-        Q.pop();
-        vis[x] = true;
-        for(i = 0 ; i < adj[x].size() ; i++)
-        {
-            y = adj[x][i];
-            if(!vis[y])
-                Q.push(y);
-        }
-        cout << x << " ";
     }
     return 0;
 }

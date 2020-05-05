@@ -49,7 +49,7 @@ int main()
     while (Q--)
     {
         cin >> type >> u >> v;
-        if(type == 1)           // Merge 2 nodesu and v
+        if(type == 1)           // Merge 2 nodes, u and v
         {
             merge(u, v);
             cout << "Merged " << u << " and " << v << endl;
