@@ -56,7 +56,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|
 | Breadth First Search | [C++](Graphs/Traversal/BFS.cpp) |
 | Depth First Search Iterative | [C++](Graphs/Traversal/DFS_Iterative.cpp) |
-| Depth First Search Recursive | [C++](Graphss/Traversal/DFS_Recursive.cpp) |
+| Depth First Search Recursive | [C++](Graphs/Traversal/DFS_Recursive.cpp) |
 
 #### Cycle Detection
 | Problem | Code |
