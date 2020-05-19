@@ -1,19 +1,22 @@
 
+  
 # Data Structures and Algorithms
-Following are the codes of all the data-structures and algorithms I have learned till now. I implemented all of them in `C++`. I will also try to add all the resources I have learnt from. I used to practice competetive programming on all the popular websites and I tried to maintain all the codes to a repo. You can find it [here](https://github.com/arpanmukherjee/Competetive-Programming). Thank you. Enjoy.
+Following are the codes of all the data-structures and algorithms I have learned till now. I implemented all of them in `C++`. I will also try to add all the resources I have learnt from. I used to practice competitive programming on all the popular websites and I tried to maintain all the codes to a repo. You can find it [here](https://github.com/arpanmukherjee/Competetive-Programming). Thank you. Enjoy.
 
 ## Quick Links
 - [Searching and Sorting](#searching-and-sorting)
 	- [Searching](#searching)
 	- [Sorting](#sorting)
 - [Dynamic Programming](#dynamic-programming)
+- [Data Structures](#data-structures)
 - [Graphs](#graphs)
 	- [Traversal](#traversal)
 	- [Cycle Detection](#cycle-detection)
 	- [Minimum Spanning Tree](#minimum-spanning-tree)
-	- [Shortest Path](#shortest-path)
+	- [Single Source Shortest Paths](#single-source-shortest-paths)
+	- [All Source Shortest Paths](#all-source-shortest-paths)
 - [Trees](#trees)
-- [Miscellaneous](#miscellaneous)
+- [Strings](#strings)
 
 
 
@@ -49,6 +52,20 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
 
 
+### Data Structures
+| Problem | Code |
+|--|--|
+| Heap / Priority Queue | [C++](Data-Structures/Heap.cpp) #|
+| Disjoint Set Union (Union Find) | [C++](Data-Structures/Disjoint_Set_Union.cpp) |
+| Segment Tree | [C++](Data-Structures/Segment_Tree.cpp) #|
+| Binary Indexed Tree (Fenwick) | [C++](Data-Structures/BIT.cpp) #|
+| Trie | [C++](Data-Structures/Trie.cpp) # |
+| Suffix Tree | [C++](Data-Structures/Suffix_Tree.cpp) # |
+| Suffix Array | [C++](Data-Structures/Suffix_Array.cpp) # |
+| Sparse Table | [C++](Data-Structures/Sparse_Table.cpp) #|
+
+
+
 ### Graphs
 
 #### Traversal
@@ -61,21 +78,30 @@ Following are the codes of all the data-structures and algorithms I have learned
 #### Cycle Detection
 | Problem | Code |
 |--|--|
-| Cycle Detection Undirected Graph(DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DFS.cpp) |
-| Cycle Detection Undirected Graph(DSU) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DSU.cpp) |
-| Cycle Detection Directed Graph(DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Directed_DFS.cpp) |
+| Cycle Detection Undirected Graph (DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DFS.cpp) |
+| Cycle Detection Undirected Graph (DSU) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Undirected_DSU.cpp) |
+| Cycle Detection Directed Graph (DFS) | [C++](Graphs/Cycle-Detection/Cycle_Detection_Directed_DFS.cpp) |
 
 #### Minimum Spanning Tree
 | Problem | Code |
 |--|--|
-| Kruskal's MST | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) |
-| Prim's MST | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) |
+| Prim's Algorithm | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) #|
+| Kruskal | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) #|
+| Kruskal with Disjoint Set | [C++](Graphs/Minimum-Spanning-Tree/Kruskal_DSU.cpp) #|
 
-#### Single Source Shortest Path
+
+#### Single Source Shortest Paths
 | Problem | Code |
 |--|--|
 | Shortest path using BFS | [C++](Graphs/Shortest-Path/Shortest_Path_BFS.cpp) |
 | Dijkstra’s SSSP | [C++](Graphs/Shortest-Path/Dijkstra.cpp) |
+| Bellman–Ford | [C++](Graphs/Shortest-Path/Bellman_Ford.cpp) #|
+
+
+#### All Source Shortest Paths
+| Problem | Code |
+|--|--|
+| Floyd-Warshall | [C++](Graphs/Shortest-Path/Floyd_Warshall.cpp) |
 
 
 ### Trees
@@ -85,12 +111,12 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Inorder Iterative Traversal | [C++](Trees/InorderIterative.cpp) |
 | Preorder Traversal | [C++](Trees/Preorder.cpp) |
 | Postorder Traversal | [C++](Trees/Postorder.cpp) |
-| Lowest Common Ancestor(Binary Tree) | [C++](Trees/LCA.cpp) |
+| LCA (Binary Tree) | [C++](Trees/LCA.cpp) |
 
 
-### Miscellaneous
+
+### Strings
 | Problem | Code |
 |--|--|
-| Disjoint Set Union (Union Find) | [C++](Miscellaneous/Disjoint_Set_Union.cpp) |
-
-
+|KMP Algorithm | [C++](Strings/KMP.cpp) # |
+|Z Algorithm | [C++](Strings/Z.cpp) # |
