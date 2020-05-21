@@ -85,7 +85,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|
 | Prim's Algorithm | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) #|
 | Kruskal | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) #|
-| Kruskal with Disjoint Set | [C++](Graphs/Minimum-Spanning-Tree/Kruskal_DSU.cpp) #|
+| Kruskal with Disjoint Set | [C++](Graphs/Minimum-Spanning-Tree/Kruskal_DSU.cpp) |
 
 
 #### Single Source Shortest Paths
