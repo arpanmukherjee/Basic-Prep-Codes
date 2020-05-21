@@ -1,14 +1,26 @@
+// Implementation of Union Find / Union by rank
+//
+// Running Time Complexity
+// Initialize : O(N)
+// Query : O(α(n)) , where α(n) is the inverse Ackermann function
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-int N;
-int A[MAX], sz[MAX];
+const int N = 100005;
 
-void initialize()
+
+int V;
+int A[N], sz[N];
+
+void initialize(int N)
 {
-    for (int i = 0; i < N; i++)
+    for (int i = 1; i <= N; i++)
     {
         A[i] = i;
         sz[i] = 1;
@@ -38,12 +50,12 @@ void merge(int u, int v)
     }
 }
 
-int main()
+int32_t main()
 {
     int Q, type, u, v;
     cout << "Enter the no of elements:";
-    cin >> N;
-    initialize();
+    cin >> V;
+    initialize(V);
     cout << "Enter the no of queries:";
     cin >> Q;
     while (Q--)

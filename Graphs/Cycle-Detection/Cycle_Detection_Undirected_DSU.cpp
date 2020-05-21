@@ -1,16 +1,25 @@
+// Implementation of Cycle detection of Undirected graph using DSU
+//
+// Running Time Complexity : O(logN)
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-bool vis[MAX];
+const int N = 100005;
+
+bool vis[N];
 int V, E;
-int par[MAX], sz[MAX];
-vector<int> adj[MAX];
+int par[N], sz[N];
+vector<int> adj[N];
 
 void init_DSU()
 {
-    for (int i = 0; i < V; i++)
+    for (int i = 1; i <= V; i++)
     {
         par[i] = i;         // Parent of node i
         sz[i] = 1;          // Size of node i
@@ -43,7 +52,7 @@ void merge(int u, int v)
 }
 
 
-int main()
+int32_t main()
 {
     int x, y, i, x_, y_;
     bool isCyclic = false;

@@ -1,18 +1,19 @@
-// Implementation of Dijkstra's algorithm using adjacency lists
-// and priority queue for efficiency.
+// Implementation of Dijkstra's algorithm using adjacency lists and priority queue.
 //
-// Running time: O(|E| log |V|)
+// Running time: O(ElogV)
 
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
-#define INF 0x3f3f3f3f
-#define pii pair<int, int>
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-bool vis[MAX];
-int dist[MAX];
-vector<pii> adj[MAX];
+const int N = 100005;
+
+bool vis[N];
+int dist[N];
+vector<pii> adj[N];
 int V, E;
 
 void Dijkstra(int src)
@@ -44,7 +45,7 @@ void Dijkstra(int src)
         cout << i << "\t" << dist[v] << endl;
 }
 
-int main()
+int32_t main()
 {
     int x, y, wt, src, i;
     memset(vis, false, sizeof(vis));

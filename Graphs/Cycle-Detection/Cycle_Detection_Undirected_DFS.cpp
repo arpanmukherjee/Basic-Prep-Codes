@@ -1,36 +1,44 @@
+// Implementation of Cycle detection of Undirected graph using DFS
+//
+// Running Time Complexity : O(V+E)
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-bool vis[MAX];
+const int N = 100005;
+
+bool vis[N];
 int V, E;
-vector<int> adj[MAX];
+vector<int> adj[N];
 
 bool isCyclic(int u, int parent)
 {
     vis[u] = true;
 
     int i, v;
-    bool flag = true;
+    bool flag = false;
 
     for(i = 0 ; i < adj[u].size() ; i++)
     {
         v = adj[u][i];
         if(!vis[v])
-            flag &= isCyclic(v, u);
+            flag |= isCyclic(v, u);
         else
         {
             if(v == parent)
                 continue;
             else
-                return false;
+                return true;
         }
     }
     return flag;
 }
 
-int main()
+int32_t main()
 {
     int x, y, i;
     bool cycle = true;
@@ -52,7 +60,7 @@ int main()
         if(vis[i] == 0)
             cycle &= isCyclic(i, -1);
     }
-    if(!cycle)
+    if(cycle)
         cout << "The Graph is cyclic" << endl;
     else
         cout << "The Graph is not cyclic" << endl;

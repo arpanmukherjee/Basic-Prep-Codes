@@ -12,7 +12,6 @@ using namespace std;
 #define INF     0x3f3f3f3f
 #define int     long long
 #define pii     pair<int, int>
-#define deb(x)  cout << #x << ": " << x
 
 const int N = 100005;
 

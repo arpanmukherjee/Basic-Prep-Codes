@@ -1,13 +1,21 @@
+// Implementation of Shortest path using BFS
+//
+// Running Time Complexity : O(V+E)
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
-#define INF 0x3f3f3f3f
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
+
+const int N = 100005;
 
 int V, E;
-bool vis[MAX];
-int dist[MAX];
-vector<int> adj[MAX];
+bool vis[N];
+int dist[N];
+vector<int> adj[N];
 
 void bfsShortestPath(int src)
 {
@@ -35,7 +43,7 @@ void bfsShortestPath(int src)
         cout << i << "\t" << dist[i] << endl;
 }
 
-int main()
+int32_t main()
 {
     int x, y, i, src;
     memset(dist, INF, sizeof(dist));

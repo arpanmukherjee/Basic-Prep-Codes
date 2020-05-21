@@ -1,10 +1,18 @@
+// Implementation of BFS
+//
+// Running Time Complexity : O(V+E)
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-bool vis[MAX];
-vector<int> adj[MAX];
+const int N = 100005;
+
+bool vis[N];
+vector<int> adj[N];
 
 void bfs(int src)
 {
@@ -26,7 +34,7 @@ void bfs(int src)
     }
 }
 
-int main()
+int32_t main()
 {
     int V, E, x, y, i;
     memset(vis, false, sizeof(vis));

@@ -1,11 +1,19 @@
+// Implementation of Cycle detection of Directed graph using DFS
+//
+// Running Time Complexity : O(V+E)
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
-#define MAX 100005
+#define INF     0x3f3f3f3f
+#define int     long long
+#define pii     pair<int, int>
 
-int vis[MAX];
-int V, E;
-vector<int> adj[MAX];
+const int N = 100005;
+
+int V, E, vis[N];
+vector<int> adj[N];
 
 bool isCyclic(int u)
 {
@@ -25,7 +33,7 @@ bool isCyclic(int u)
     return flag;
 }
 
-int main()
+int32_t main()
 {
     int x, y, i;
     bool cycle = true;
