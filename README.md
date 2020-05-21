@@ -1,5 +1,3 @@
-
-  
 # Data Structures and Algorithms
 Following are the codes of all the data-structures and algorithms I have learned till now. I implemented all of them in `C++`. I will also try to add all the resources I have learnt from. I used to practice competitive programming on all the popular websites and I tried to maintain all the codes to a repo. You can find it [here](https://github.com/arpanmukherjee/Competetive-Programming). Thank you. Enjoy.
 
@@ -57,7 +55,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|
 | Heap / Priority Queue | [C++](Data-Structures/Heap.cpp) #|
 | Disjoint Set Union (Union Find) | [C++](Data-Structures/Disjoint_Set_Union.cpp) |
-| Segment Tree | [C++](Data-Structures/Segment_Tree.cpp) #|
+| Segment Tree | [C++](Data-Structures/Segment_Tree.cpp) |
 | Binary Indexed Tree (Fenwick) | [C++](Data-Structures/BIT.cpp) #|
 | Trie | [C++](Data-Structures/Trie.cpp) # |
 | Suffix Tree | [C++](Data-Structures/Suffix_Tree.cpp) # |

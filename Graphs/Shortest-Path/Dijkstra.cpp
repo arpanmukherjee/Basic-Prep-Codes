@@ -1,3 +1,8 @@
+// Implementation of Dijkstra's algorithm using adjacency lists
+// and priority queue for efficiency.
+//
+// Running time: O(|E| log |V|)
+
 #include<bits/stdc++.h>
 using namespace std;
 
