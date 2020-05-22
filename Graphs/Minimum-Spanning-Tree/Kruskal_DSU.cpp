@@ -8,7 +8,6 @@ using namespace std;
 #define INF     1LL<<60
 #define int     long long
 #define pii     pair<int, int>
-#define deb(x)  cout << #x << ": " << x
 
 const int N = 100005;
 
