@@ -83,7 +83,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 #### Minimum Spanning Tree
 | Problem | Code |
 |--|--|
-| Prim's Algorithm | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) #|
+| Prim's Algorithm | [C++](Graphs/Minimum-Spanning-Tree/Prim.cpp) |
 | Kruskal | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) #|
 | Kruskal with Disjoint Set | [C++](Graphs/Minimum-Spanning-Tree/Kruskal_DSU.cpp) |
 
