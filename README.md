@@ -7,6 +7,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 	- [Sorting](#sorting)
 - [Dynamic Programming](#dynamic-programming)
 - [Data Structures](#data-structures)
+- [Range Minimum Query](#range-minimum-query)
 - [Graphs](#graphs)
 	- [Traversal](#traversal)
 	- [Cycle Detection](#cycle-detection)
@@ -36,6 +37,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Quick Sort | [C++](Sorting/Quick_Sort.cpp) |
 
 
+
 ### Dynamic Programming
 | Problem | Code |
 |--|--|
@@ -50,6 +52,16 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Form a palindrome | [C++](Dynamic-Programming/form_a_palindrome.cpp) |
 
 
+
+### Range Minimum Query
+| Problem | Code |
+|--|--|
+| Sparse Table | [C++](Data-Structures/Sparse_Table.cpp) |
+| Segment Tree | [C++](Data-Structures/Segment_Tree.cpp) |
+| Binary Indexed Tree (Fenwick) | [C++](Data-Structures/BIT.cpp) |
+
+
+
 ### Data Structures
 | Problem | Code |
 |--|--|
@@ -60,7 +72,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Trie | [C++](Data-Structures/Trie.cpp) # |
 | Suffix Tree | [C++](Data-Structures/Suffix_Tree.cpp) # |
 | Suffix Array | [C++](Data-Structures/Suffix_Array.cpp) # |
-| Sparse Table | [C++](Data-Structures/Sparse_Table.cpp) #|
+| Sparse Table | [C++](Data-Structures/Sparse_Table.cpp) |
 
 
 
@@ -87,7 +99,6 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Kruskal | [C++](Graphs/Minimum-Spanning-Tree/Kruskal.cpp) #|
 | Kruskal with Disjoint Set | [C++](Graphs/Minimum-Spanning-Tree/Kruskal_DSU.cpp) |
 
-
 #### Single Source Shortest Paths
 | Problem | Code |
 |--|--|
@@ -95,12 +106,10 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Dijkstra’s SSSP | [C++](Graphs/Shortest-Path/Dijkstra.cpp) |
 | Bellman–Ford | [C++](Graphs/Shortest-Path/Bellman_Ford.cpp) #|
 
-
 #### All Source Shortest Paths
 | Problem | Code |
 |--|--|
 | Floyd-Warshall | [C++](Graphs/Shortest-Path/Floyd_Warshall.cpp) |
-
 
 ### Trees
 | Problem | Code |
