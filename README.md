@@ -9,12 +9,14 @@ Following are the codes of all the data-structures and algorithms I have learned
 - [Data Structures](#data-structures)
 - [Range Minimum Query](#range-minimum-query)
 - [Graphs](#graphs)
-	- [Traversal](#traversal)
+	- [Graph Traversal](#graph-traversal)
 	- [Cycle Detection](#cycle-detection)
 	- [Minimum Spanning Tree](#minimum-spanning-tree)
 	- [Single Source Shortest Paths](#single-source-shortest-paths)
 	- [All Source Shortest Paths](#all-source-shortest-paths)
 - [Trees](#trees)
+	- [Tree Traversal](#tree-traversal)
+	- [LCA](#lca)
 - [Strings](#strings)
 
 
@@ -78,7 +80,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 
 ### Graphs
 
-#### Traversal
+#### Garph Traversal
 | Problem | Code |
 |--|--|
 | Breadth First Search | [C++](Graphs/Traversal/BFS.cpp) |
@@ -111,14 +113,24 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|
 | Floyd-Warshall | [C++](Graphs/Shortest-Path/Floyd_Warshall.cpp) |
 
+
+
 ### Trees
+
+#### Tree Traversal
 | Problem | Code |
 |--|--|
 | Inorder Recursive Traversal | [C++](Trees/InorderRecursive.cpp) |
 | Inorder Iterative Traversal | [C++](Trees/InorderIterative.cpp) |
 | Preorder Traversal | [C++](Trees/Preorder.cpp) |
 | Postorder Traversal | [C++](Trees/Postorder.cpp) |
-| LCA (Binary Tree) | [C++](Trees/LCA.cpp) |
+
+#### LCA
+| Problem | Code |
+|--|--|
+| LCA (Binary Tree) | [C++](Trees/LCABinaryTree.cpp) |
+| LCA (RMQ) | [C++](Trees/LCA_RMQ.cpp) #|
+| LCA (Binary Lifting) | [C++](Trees/LCABinaryLifting.cpp) #|
 
 
 
