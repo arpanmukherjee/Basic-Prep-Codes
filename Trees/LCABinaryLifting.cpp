@@ -44,7 +44,7 @@ void buildLCA(int root) {
         lca[i][0] = parent[i];
     for(j = 1 ; (1<<j) < V ; j++) {
         for(i = 1 ; i <= V ; i++) {
-            if(lca[i-1][j] != -1)   // If node i has no (1<<j-1)th ancesstor, then it won't have (1<<j)th ancesstor as well
+            if(lca[i][j-1] != -1)   // If node i has no (1<<j-1)th ancesstor, then it won't have (1<<j)th ancesstor as well
                 lca[i][j] = lca[lca[i][j-1]][j-1];
         }
     }
