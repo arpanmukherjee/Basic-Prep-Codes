@@ -130,7 +130,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 |--|--|
 | LCA (Binary Tree) | [C++](Trees/LCABinaryTree.cpp) |
 | LCA (RMQ) | [C++](Trees/LCA_RMQ.cpp) #|
-| LCA (Binary Lifting) | [C++](Trees/LCABinaryLifting.cpp) #|
+| LCA (Binary Lifting) | [C++](Trees/LCABinaryLifting.cpp) |
 
 
 
