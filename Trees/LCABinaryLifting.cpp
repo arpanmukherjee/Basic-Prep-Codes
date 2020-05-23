@@ -53,7 +53,7 @@ void buildLCA(int root) {
 int getLCA(int u, int v) {
     if(lvl[u] < lvl[v])
         swap(u, v);
-    int diff, jump, j;
+    int diff, jump, j, LOGMAX;
     diff = lvl[u] - lvl[v];
     while(diff) {   // bring u and v at same level
         jump = log2(diff);
@@ -62,7 +62,8 @@ int getLCA(int u, int v) {
     }
     if(u == v)
         return u;
-    for(j = LOGN ; j >= 0 ; j--) {  // Find the child of the LCA
+    LOGMAX = log2(lvl[u]);
+    for(j = LOGMAX ; j >= 0 ; j--) {  // Find the child of the LCA
         if(lca[u][j] != -1 and lca[u][j] != lca[v][j]) {
             u = lca[u][j];
             v = lca[v][j];
