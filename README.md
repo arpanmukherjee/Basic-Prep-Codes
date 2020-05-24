@@ -129,7 +129,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Problem | Code |
 |--|--|
 | LCA (Binary Tree) | [C++](Trees/LCABinaryTree.cpp) |
-| LCA (RMQ) | [C++](Trees/LCA_RMQ.cpp) #|
+| LCA (Euler tour + SegTree) | [C++](Trees/LCA_RMQ_SegTree.cpp) |
 | LCA (Binary Lifting) | [C++](Trees/LCABinaryLifting.cpp) |
 
 
