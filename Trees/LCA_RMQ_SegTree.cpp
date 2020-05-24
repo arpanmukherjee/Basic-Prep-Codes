@@ -2,8 +2,8 @@
 //
 // Running Time Complexity
 // V = Vertices, E = Edges, H = Height
-// Build LCA: O(V+E) + O(HlogH)
-// Query LCA: O(logH)
+// Build LCA: O(V+E) + O(V) = O(V+E)
+// Query LCA: O(logV)
 
 
 #include<bits/stdc++.h>
