@@ -1,6 +1,6 @@
-// Implementation of Dijkstra's algorithm using adjacency lists and priority queue.
+// Implementation of Kosaraju's algorithm using adjacency lists and priority queue.for Strongly Connected Components
 //
-// Running time: O(ElogV)
+// Running time: O(V+E)
 
 #include<bits/stdc++.h>
 using namespace std;
