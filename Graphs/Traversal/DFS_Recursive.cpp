@@ -11,6 +11,7 @@ using namespace std;
 
 const int N = 100005;
 
+int V, E;
 bool vis[N];
 vector<int> adj[N];
 
@@ -29,7 +30,7 @@ void dfsRecursive(int u)
 
 int32_t main()
 {
-    int V, E, x, y, i;
+    int x, y, i;
     memset(vis, false, sizeof(vis));
 
     cout << "Enter the no of Nodes";

@@ -1,4 +1,4 @@
-// Implementation of DFS iteratively
+// Implementation of DFS Iteratively
 //
 // Running Time Complexity : O(V+E)
 
@@ -11,11 +11,13 @@ using namespace std;
 
 const int N = 100005;
 
+int V, E;
 bool vis[N];
 vector<int> adj[N];
 
 void dfsIterative(int u)
 {
+    memset(vis, false, sizeof(vis));
     stack<int> st;
     int i, x, y;
     st.push(u);
@@ -36,12 +38,11 @@ void dfsIterative(int u)
 
 int32_t main()
 {
-    int V, E, x, y, i;
-    memset(vis, false, sizeof(vis));
+    int x, y, i;
 
-    cout << "Enter the no of Nodes";
+    cout << "Enter the no of Nodes: ";
     cin >> V;
-    cout << "Enter the no of Edges";
+    cout << "Enter the no of Edges: ";
     cin >> E;
     for(i = 0 ; i < E ; i++)
     {
