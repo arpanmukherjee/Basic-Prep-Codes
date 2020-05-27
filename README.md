@@ -14,6 +14,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 	- [Minimum Spanning Tree](#minimum-spanning-tree)
 	- [Single Source Shortest Paths](#single-source-shortest-paths)
 	- [All Source Shortest Paths](#all-source-shortest-paths)
+	- [Strnogly Connected Components](#strongly-connected-components)
 - [Trees](#trees)
 	- [Tree Traversal](#tree-traversal)
 	- [LCA](#lca)
@@ -112,6 +113,11 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Problem | Code |
 |--|--|
 | Floyd-Warshall | [C++](Graphs/Shortest-Path/Floyd_Warshall.cpp) |
+
+#### Strnogly Connected Components
+| Problem | Code |
+|--|--|
+| Kosaraju's Algorithm | [C++](Graphs/SCC/Kosaraju.cpp)
 
 
 
