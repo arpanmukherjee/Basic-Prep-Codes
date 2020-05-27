@@ -87,6 +87,7 @@ Following are the codes of all the data-structures and algorithms I have learned
 | Breadth First Search | [C++](Graphs/Traversal/BFS.cpp) |
 | Depth First Search Iterative | [C++](Graphs/Traversal/DFS_Iterative.cpp) |
 | Depth First Search Recursive | [C++](Graphs/Traversal/DFS_Recursive.cpp) |
+| Topological Sort | [C++](Graphs/Traversal/Topo_Sort.cpp) |
 
 #### Cycle Detection
 | Problem | Code |
