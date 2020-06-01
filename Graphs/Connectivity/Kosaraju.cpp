@@ -1,4 +1,4 @@
-// Implementation of Kosaraju's algorithm using adjacency lists and priority queue.for Strongly Connected Components
+// Implementation of Kosaraju's algorithm for Strongly Connected Components
 //
 // Running time: O(V+E)
 
